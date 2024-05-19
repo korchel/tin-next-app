@@ -1,38 +1,38 @@
 @import '../../styles/variables.scss';
 
 .modal {
-  width: 300px;
-  border: none;
-  border-radius: 0.5rem;
-  .modal__text {
-    text-align: center;
-  }
-  .buttonGroup {
-    display: flex;
-    justify-content: space-between;
-    .buttonGroup__button {
-      width: 100px;
-      padding: 0.5rem;
+	width: 300px;
+	border: none;
+	border-radius: 0.5rem;
+	.modal__text {
+		text-align: center;
+	}
+	.buttonGroup {
+		display: flex;
+		justify-content: space-between;
+		.buttonGroup__button {
+			width: 100px;
+			padding: 0.5rem;
 
-      border: none;
-      border-radius: 0.25rem;
+			border: none;
+			border-radius: 0.25rem;
 
-      font-size: inherit;
-      font-family: inherit;
-      text-decoration: none;
-      text-align: center;
-    }
-    .buttonGroup__button_blue {
-      background-color: $blue;
-      &:hover {
-        background-color: $blue-hover;
-      }
-    }
-    .buttonGroup__button_gray {
-      background-color: $light-gray;
-      &:hover {
-        background-color: $gray;
-      }
-    }
-  }
+			font-size: inherit;
+			font-family: inherit;
+			text-decoration: none;
+			text-align: center;
+		}
+		.buttonGroup__button_blue {
+			background-color: $blue;
+			&:hover {
+				background-color: $blue-hover;
+			}
+		}
+		.buttonGroup__button_gray {
+			background-color: $light-gray;
+			&:hover {
+				background-color: $gray;
+			}
+		}
+	}
 }

@@ -1,12 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import SearchField from "../components/SearchField/SearchField";
+import SearchField from '../components/SearchField/SearchField';
 
 const HomePage = () => {
-
-  return (
-    <SearchField />
-  );
+	return <SearchField />;
 };
 
 export default HomePage;
