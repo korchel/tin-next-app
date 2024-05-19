@@ -1,0 +1,45 @@
+@import '../../styles/variables.scss';
+
+.form {
+  position: relative;
+  .inputContainer {
+    height: 40px;
+    border: 1px solid $gray;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    &:focus-within {
+      box-shadow: 0 0 2px 2px $light-gray;
+    }
+    .inputContainer__input {
+      width: 100%;
+      padding: 0.5rem 1rem;
+      border: none;
+      outline: none;
+      font-size: inherit;
+      font-family: inherit;
+      &::placeholder {
+        color: $gray;
+      }
+    }
+    .inputContainer__button {
+      width: 80px;
+      height: 100%;
+      cursor: pointer;
+      border: none;
+      border-left: 1px solid $gray;
+      background: none;
+      color: $blue;
+      &:hover {
+        color: $blue-hover;
+      }
+    }
+    .inputContainer__errorMessage {
+      position: absolute;
+      top: -30px;
+      left: 10px;
+      color: red;
+      font-size: 0.8em;
+    }
+  }
+}
